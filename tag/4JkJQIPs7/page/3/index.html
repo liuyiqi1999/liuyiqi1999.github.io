@@ -1,246 +1,293 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>0x5d5d5d5d</title>
-<link rel="shortcut icon" href="https://liuyiqi1999.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://liuyiqi1999.github.io/media/css/tailwind.css">
-<link rel="stylesheet" href="https://liuyiqi1999.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="0x5d5d5d5d - Atom Feed" href="https://liuyiqi1999.github.io/atom.xml">
 
+<!DOCTYPE html>
+<html>
+  <head>
     
+<meta charset="utf-8" >
 
-  <meta name="description" content="春风里我的乌托邦在饿着" />
-</head>
-<body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
+<title>诗歌 | 0x5d5d5d5d</title>
+<meta name="description" content="春风里我的乌托邦在饿着">
 
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://liuyiqi1999.github.io/favicon.ico?v=1585119857359">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://liuyiqi1999.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://liuyiqi1999.github.io">
+        <img class="avatar" src="https://liuyiqi1999.github.io/images/avatar.png?v=1585119857359" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://liuyiqi1999.github.io">
+        <h1 class="site-title">0x5d5d5d5d</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
     </div>
   </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-    <a href="https://liuyiqi1999.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
 </div>
 
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
-        <i class="ri-hashtag"></i>
-        诗歌
-      </h1>
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/yang-tai/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          阳台
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-07-15</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        年轻的朋友消失在荒原，
-遍历时代的延缓。
-爱意是纤维般的触碰，
-就如同阅读文字，见字如面。
-炫耀的钢筋，
-从诞生之日起集体潮湿。
-空中，柔软的透镜，
-不幸罹患青光眼闭上了。
-所有的栏杆被挂上锁，
-许多干燥的幻想就生长
-朴素的、地外文明般的痕...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/yang-tai/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/kai-shi-gong-zhen/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          开始共振
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-06-08</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        探照灯探照我但它并不在乎，我是说我的鞋底
-是透明，黏或者应是某种程度上的镶嵌。
-爆炸头女孩斜倚空气的杆，她要复兴
-烟雨飘摇的重庆，逼迫我戴上闪光黄墨镜、手离开口袋。
-从不等 2 分钟的公交车，故作疲态
-舔舐湿透的霓虹，他已看见水光粼粼仿佛正...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/kai-shi-gong-zhen/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/chong-lang/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          冲浪
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-06-02</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        脑海总是涨落
-挚热的波，冲击我，日历般晕眩。
-收藏许多类似的蓝天，
-常常是走入一座矿藏里，如期地忘了。
-年代扛着年代，
-在青色窗口迷了路，就拾一片反光的瓦。
-哑红色塑料花瓣，夹着土，
-在手心攥出汗来，小跑步，纸有铁门般的香。
-走廊的油漆上了...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/chong-lang/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/hou-cha/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          后刹
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-05-24</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        1
-那天晚上，我从柔和的楼
-走出，走进暖湿的五月噪点中。
-难以得到戏谑般的启发，
-但总有狡黠窍门。
-我习惯把自行车的后刹
-当作铃铛用，它响的作用大于减速。
-越是在无人的夜，肆意又胆怯地
-制造随机韵律，我越兴奋。
-以至于欣喜若狂，以至于嘴角
-...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/hou-cha/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/mei-zhu-guan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          美术馆
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-03-25</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        你刚从美术馆回来，你说那里
-心怀鬼胎，像倔强的孩子。
-是谁的诡计得逞了？
-雕饰的镜子碎裂了，
-滚下一粒冰凉透明的玻璃弹珠。
-模糊的阴影比划墙壁，
-空调是引擎，载我们去海底。
-你在我空洞的肺里唱歌。
-我不敢出声，怕弄湿了纸的装置。
-一把揽过，...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/mei-zhu-guan/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://liuyiqi1999.github.io/post/xi-ying/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          喜迎
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2018-02-27</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        镜子和窗，用烛光看清彼此。
-夜色衔着有烟味的风，流浪进门里。
-我陷入木桌的沟壑，
-残余的油脂，和即将挂起的画。
-恋人的星星和遥远的沙土，
-好像只是
-路过的一条冻得发抖的野狗。
-他颤颤巍巍地念叨，
-在恐惧的香火中彻夜不眠地燃烧，
-“明天会更好...
-      </div>
-      <a href="https://liuyiqi1999.github.io/post/xi-ying/" class="btn">
-        Read more
-      </a>
-    </div>
-    
-  </div>
-  
-      </div>
-
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
-  <div class="my-4 flex justify-between px-4 md:px-0">
-    
-      <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/page/2/" class="btn btn-white">
-        <i class="ri-arrow-left-line mr-4"></i>
-        上一页
-      </a>
-    
-    
-  </div>
-
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-</footer>
-
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://liuyiqi1999.github.io/media/scripts/main.js"></script>
-</body>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 诗歌
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/yang-tai/">
+        <h2 class="post-title">阳台</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-07-15</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/kai-shi-gong-zhen/">
+        <h2 class="post-title">开始共振</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-06-08</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/chong-lang/">
+        <h2 class="post-title">冲浪</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-06-02</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/hou-cha/">
+        <h2 class="post-title">后刹</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-05-24</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/mei-zhu-guan/">
+        <h2 class="post-title">美术馆</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-03-25</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://liuyiqi1999.github.io/post/xi-ying/">
+        <h2 class="post-title">喜迎</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2018-02-27</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/">
+                诗歌
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+    <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/page/2/" class="prev"><i class="icon-arrow-ios-back-outline"></i> 上一页</a>
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">春风里我的乌托邦在饿着</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://liuyiqi1999.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>
