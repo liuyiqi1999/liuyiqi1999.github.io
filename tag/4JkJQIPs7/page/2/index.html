@@ -1,507 +1,496 @@
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-<meta name="description" content=""/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>诗歌 | 0x5d5d5d5d</title>
-<link rel="shortcut icon" href="https://liuyiqi1999.github.io/favicon.ico?v=1585112945885">
-<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>0x5d5d5d5d</title>
+<link rel="shortcut icon" href="https://liuyiqi1999.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://liuyiqi1999.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://liuyiqi1999.github.io/styles/main.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="alternate" type="application/atom+xml" title="0x5d5d5d5d - Atom Feed" href="https://liuyiqi1999.github.io/atom.xml">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    
 
-<!-- DEMO JS -->
-<script src="media/scripts/index.js"></script>
-
-
-
+  <meta name="description" content="春风里我的乌托邦在饿着" />
 </head>
 <body>
-<div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            0x5d5d5d5d
-        </div>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-                <div class="nav-item">
-                    
-                        <a href="/" class="menu gt-a-link">
-                            首页
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/tags" class="menu gt-a-link">
-                            标签
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/archives" class="menu gt-a-link">
-                            归档
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/post/about" class="menu gt-a-link">
-                            关于
-                        </a>
-                    
-                </div>
-            
-        </div>
-    </div>
-</nav>
-        <div class="current-tag-container">
-            <h2 class="title gt-c-content-color-first">
-                #诗歌
-            </h2>
-        </div>
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/yi-wei-tui-wu-jun-ren-de-hun-li/">
-                            <span class="post-title gt-c-content-color-first">一位退伍军人的婚礼*</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-11-07 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/nong-mang-yu-feng-shou-shou-ce/">
-                            <span class="post-title gt-c-content-color-first">“农忙与丰收”手册</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-11-04 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/a-boy-is-a-gun/">
-                            <span class="post-title gt-c-content-color-first">A BOY IS A GUN*</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-10-23 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/ta-shi-yao-gun-ming-xing/">
-                            <span class="post-title gt-c-content-color-first">他是摇滚明星</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-10-18 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/fu-ge-yu-fu-diao/">
-                            <span class="post-title gt-c-content-color-first">赋格与复调</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-10-03 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/hui-shou/">
-                            <span class="post-title gt-c-content-color-first">回授</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-09-29 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/xiu-xi-shi-jian/">
-                            <span class="post-title gt-c-content-color-first">休息时间</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-09-23 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/ri-chu-chong-lang-ru-men/">
-                            <span class="post-title gt-c-content-color-first">日出冲浪入门</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-08-28 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/shi-nei-shi-ren-zi-chuan/">
-                            <span class="post-title gt-c-content-color-first">室内诗人自传</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-08-18 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/gong-ke-ji-dong-dui/">
-                            <span class="post-title gt-c-content-color-first">攻壳机动队</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-08-11 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/hu-xin/">
-                            <span class="post-title gt-c-content-color-first">湖心</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-08-08 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/shi-yi-jie/">
-                            <span class="post-title gt-c-content-color-first">十一节</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-08-05 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/ye-hai/">
-                            <span class="post-title gt-c-content-color-first">夜海</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-07-28 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/running-on-flesh/">
-                            <span class="post-title gt-c-content-color-first">Running on Flesh</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-07-18 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://liuyiqi1999.github.io/post/kan-de-jian-de-cheng-shi/">
-                            <span class="post-title gt-c-content-color-first">看得见的城市</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2019-07-15 ·
-                        </time>
-                        
-                            <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/" class="post-tag">
-                                # 诗歌
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-    </div>
-</div>
-        <div class="pagination-container">
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
     
-        <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7" class="prev-page gt-a-link">上一页</a>
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
     
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
     
-        <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/page/3/" class="prev-page gt-a-link">下一页</a>
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
     
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://liuyiqi1999.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
 </div>
 
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">春风里我的乌托邦在饿着</div>
-    <div class="social-container">
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        诗歌
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
         
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/yi-wei-tui-wu-jun-ren-de-hun-li/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          一位退伍军人的婚礼*
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-07</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        晚上和你去卡拉OK，
+所有人都如被击倒般坐着。
+“一只蚊子和它的影子
+就是两只蚊子”，
+你和我大声说起这事时，
+其实我们都在想别的。
+但你得知道，当你终将早退，
+什么都改变了。“除了爱，
+我什么也没有了”，如果
+你真的明白恨，你也该清楚
+ ...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/yi-wei-tui-wu-jun-ren-de-hun-li/" class="btn">
+        Read more
+      </a>
     </div>
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a href="https://liuyiqi1999.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+    
+  </div>
 
-<script>
-    hljs.initHighlightingOnLoad()
-</script>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/nong-mang-yu-feng-shou-shou-ce/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          “农忙与丰收”手册
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-04</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        “我的这条黑色工装裤已经穿了三年”
+这不适宜作为一首诗的开头
+它早就被洗得发亮：
+不止于一种，介于白色和灰色
+之间的颜色，或许是红色
+再也没有什么新歌让我欣喜了
+上课铃，牵一发而
+动身，赴往又一次读写
+那些更稠密的日子，攀附
+高光处，气喘吁...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/nong-mang-yu-feng-shou-shou-ce/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/a-boy-is-a-gun/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          A BOY IS A GUN*
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-10-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        全世界，一个那么大的地方装不下狭窄
+且冬季干枯的河，岸边应垂着的丝瓜
+也干枯成瓤。但真的会用作搓澡巾吗？他们
+试着不细究，踏过河床走入城市。胡茬渐长
+而滞碍、发青（此间略去无可把握的事件
+去烫头，去买一辆自行车、一部新iPhone）
+像父辈...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/a-boy-is-a-gun/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/ta-shi-yao-gun-ming-xing/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          他是摇滚明星
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-10-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        没什么比这更需要
+一场爱来 把他浇灌
+只握紧那把贝斯
+就编出两根演绎法的辫子
+而我只是一颗石子
+恰好落入 这场窠臼
+这不是什么选择
+而是他们应得的另一首诗
+斜躺在门口的沙发
+还得来瓶 精酿啤酒
+你爱的林中革命
+都得需要烟、酒精、LSD
+满满...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/ta-shi-yao-gun-ming-xing/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/fu-ge-yu-fu-diao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          赋格与复调
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-10-03</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        找点消遣
+我们知道这很好
+**开车**上学去
+再喝**一瓶科罗娜**
+因为我们游刃有余
+   的之前 很久之前
+   第一次就会了
+   最后一块拼图
+这似乎是更有益处的
+   *爱！自由！旧金山！*
+   正驱车深入这片新大陆……
+明明也...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/fu-ge-yu-fu-diao/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/hui-shou/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          回授
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-09-29</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        邯郸路的肺叶，吸尽
+视线中的地砖和橙黄。
+以骨托起，我开裂的鞋底；
+以工装作袍，灯箱成为
+闪躲的红色瞳孔、齐腰的云。
+因此为许多假醉辩解，
+因此浪费了许多波光粼粼的无言。
+试探靠近，霓虹与尘土的边际。
+年轻的朋友，我们总是
+在气声的砂纸间喘...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/hui-shou/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/xiu-xi-shi-jian/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          休息时间
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-09-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        健壮的矮个儿男人齐步回宿舍
+至少有一秒的王菲 让空气此端微微颤抖
+他们在哪些时间 会这样轻声细语呢
+在等待衣服被洗好的三十五分钟里
+爬楼或是未擦干的头发 末端
+                                        ...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/xiu-xi-shi-jian/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/ri-chu-chong-lang-ru-men/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          日出冲浪入门
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-08-28</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        现在你还不能冲浪 饿着肚子的
+潮也正开始 新学一种语言
+去踩那些夜里长的苔藓 却安全得
+像他们给了你养分 如果
+你感到要醒了 就徒步来岸边找
+人 和石缝里的螃蟹 都等着被打捞
+会有柏油路潮湿地 通向你
+你想起 昨天下午水波中央的
+一场睡眠 ...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/ri-chu-chong-lang-ru-men/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/shi-nei-shi-ren-zi-chuan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          室内诗人自传
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-08-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        风从窗框竭力地突破，这让我
+害怕，好像闪灵里那样，但是
+它的声音吐着信子。我难过于
+我这样的悲哀，还留了条尾巴
+在明媚的防盗窗外。我也怀疑
+那些闪着光的树叶是否正学习
+吐这样骇人的信子。内忧外患
+的房间如此扛着，我只是被困
+在这过山车上，而...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/shi-nei-shi-ren-zi-chuan/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/gong-ke-ji-dong-dui/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          攻壳机动队
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-08-11</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        写了一年的代码，开始写跑代码的代码。
+由此才从一些壳中挣脱出来，进入
+那些新的，惯例是洋葱般的
+抽象。如果不小心在震荡中陷入
+思维的反面，就仿佛是什么奇观。却简陋得要让
+我的我不得不穷尽
+你的你。这悄悄绊倒我的游戏。
+键盘的暗光捎来许多韵脚...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/gong-ke-ji-dong-dui/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/hu-xin/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          湖心
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-08-08</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        云应是燃烧的信筏。
+人们展示蜷曲的凝望，
+张着嘴，如呼吸一般地无话可说。
+被贫瘠的岸线包裹时
+也有如此精心设计的墙，
+让我们都深陷为其中的另一块砖。
+麻雀最终如枯叶落下
+也是自然的，以至于
+抹平了那些非如此不可的隐情，
+只剩下几乎凝固的颜色...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/hu-xin/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/shi-yi-jie/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          十一节
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-08-05</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        自比于神的政策正落实
+磁的低鸣也抵上我的腰
+束手就擒于双耳的跟随
+每周一次的创世互助会
+酒神到场并参与了狂欢
+直到电子烟吞下那束光
+夺走太多颜色带来启示
+本性是惩罚而神是未知
+配置溶液般伟大的献身
+锁紧了每一块旧的黄昏
+拼凑断肢成为新的舞蹈...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/shi-yi-jie/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/ye-hai/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          夜海
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-07-28</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        干毛巾，被一整天的太阳
+浸透，早已不再年轻了。
+我用它擦干淋浴的水珠，
+让汗重新爬上我的背。
+（窗外形势总是一片大好）
+只有男孩的篮球短裤扇动，
+在召唤彼此浮起的海岸线。
+那时我知道，他们将
+如滚烫的省道般快活地睡去。
+直到巨大的海浪，趁机...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/ye-hai/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/running-on-flesh/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Running on Flesh
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-07-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+你知道吗，这是我第一次先写题目再写诗。我的一个朋友告诉我，电影海报上写英文总是比中文显得简洁许多。刚才，一对自甘成为的情侣骑他们的电动车（小摩托车？我不知道），在我的副歌开始时恰到好处地没了声音……
+
+我们跑在血肉上。
+是的，不然这底盘为...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/running-on-flesh/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuyiqi1999.github.io/post/kan-de-jian-de-cheng-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          看得见的城市
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-07-15</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        有一些季节适合出行 我不希望这是其中之一
+意大利 踏一只脚
+难道就不下雨了吗 你总是问
+却仍把它当作后花园 爱人 狗尾草
+温热的画像 还在房间等候
+接连的牵连让你累了
+无所事事生出香味来 应该是浪漫的
+拾起沙 闪闪发亮的三头肌 像屋顶的瓦
+...
+      </div>
+      <a href="https://liuyiqi1999.github.io/post/kan-de-jian-de-cheng-shi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+      <a href="https://liuyiqi1999.github.io/tag/4JkJQIPs7/page/3/" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
 
     </div>
-</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://liuyiqi1999.github.io/media/scripts/main.js"></script>
 </body>
 </html>
