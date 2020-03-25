@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuyiqi1999.github.io</id>
     <title>0x5d5d5d5d</title>
-    <updated>2020-03-25T08:09:03.364Z</updated>
+    <updated>2020-03-25T08:10:20.614Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuyiqi1999.github.io"/>
     <link rel="self" href="https://liuyiqi1999.github.io/atom.xml"/>
@@ -10,6 +10,44 @@
     <logo>https://liuyiqi1999.github.io/images/avatar.png</logo>
     <icon>https://liuyiqi1999.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 0x5d5d5d5d</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://liuyiqi1999.github.io/post/about/</id>
+        <link href="https://liuyiqi1999.github.io/post/about/">
+        </link>
+        <updated>2020-03-25T08:10:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这里是刘亦奇的个人博客，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>比起微信公众号（恐惧与爱的行为），我希望有更稳定、安全、公开、全面的个人平台，因此利用 GitHub Pages 和 Gridea 配置了这个静态网站。</p>
+<p>站名来自我被封的微博账号名：0x5d5d5d5d，一个我至今没有找到的野指针。</p>
+<p>本站会不定期地以文章的形式发布我的：</p>
+<ul>
+<li>汉语新诗作品</li>
+<li>摄影作品</li>
+<li>代码项目文档</li>
+<li>音乐评论、推荐</li>
+<li>任何想说的</li>
+</ul>
+<p>今天起，本站会作为我的个人存档，所有的想法和作品会第一时间记录在这里。微信公众号则倾向于呈现一些精选的内容。</p>
+<p>目前正在进行一些文档转移工作，稍后可以看到比较详细的作品归档。感谢大家！</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>刘亦奇，1999 年 11 月生于上海，复旦大学 2018 级软件工程系本科生在读，复旦诗社现任常务副社长。</p>
+<p>About：现代诗、摄影、摇滚乐、代码、电影、技术、啤酒、游戏……</p>
+<h2 id="你可以这样找到我">📬 你可以这样找到我</h2>
+<ul>
+<li>微博：<em>被封了</em></li>
+<li>豆瓣：<a href="https://www.douban.com/people/178356438/">刘亦奇</a></li>
+<li>Instagram：<a href="https://www.instagram.com/aofal617/">aofal617</a></li>
+<li>微信公众号：恐惧与爱的行为<br>
+<img src="https://liuyiqi1999.github.io/post-images/1585111845350.jpg" alt="恐惧与爱的行为" loading="lazy"></li>
+</ul>
+<h2 id="milestone">📋 Milestone</h2>
+<p>没有调查，就没有发言权。</p>
+<p>L'homme des foules</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一位未来主义者即将失业]]></title>
         <id>https://liuyiqi1999.github.io/post/yi-wei-wei-lai-zhu-yi-zhe-ji-jiang-shi-ye/</id>
@@ -345,39 +383,6 @@
 证明：为了时刻保持警惕。神说：<br>
 “要有光。”而人们相见时，都是捻暗的<br>
 熊熊烈火。事就这样成了。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[通关《牧场物语》]]></title>
-        <id>https://liuyiqi1999.github.io/post/tong-guan-lesslessmu-chang-wu-yu-greatergreater/</id>
-        <link href="https://liuyiqi1999.github.io/post/tong-guan-lesslessmu-chang-wu-yu-greatergreater/">
-        </link>
-        <updated>2019-12-09T03:15:27.000Z</updated>
-        <content type="html"><![CDATA[<p>逐渐熬进我们眼眶里的<br>
-夜空，一张暗红色天鹅绒在<br>
-老公房的另一头紧张<br>
-落下的头屑，累积床头<br>
-替代郊区学校明天的星空</p>
-<p>本可以和你说很多，梧桐叶般<br>
-不至于是秘密的俏皮话：<br>
-不至于在无人的教学楼出口<br>
-躲雨，玩《牧场物语：矿石镇的伙伴》<br>
-也不在海边沙滩的小雨中种甘蔗</p>
-<p>没温好的甜牛奶挂着水珠<br>
-教会我一种难以加上定语的爱<br>
-重踩细沙时的晕眩，让我<br>
-忘了劳作的辛苦需要头顶承担<br>
-该如何收获？我竟无法再回想了</p>
-<p>剧烈的困倦常常让我回到你<br>
-因此，我常常为语言干枯<br>
-而颤抖的手指落泪，它远不如<br>
-命运的手指有力，能将我紧紧<br>
-钉在扩张的版图上。去考取</p>
-<p>一个复杂的信任，是一把<br>
-谷仓的钥匙。一次漫长的饥荒<br>
-还没开始，今年的雪就落下了<br>
-我再也交不到什么新的朋友<br>
-而他们总是试着模仿更多</p>
 ]]></content>
     </entry>
 </feed>
