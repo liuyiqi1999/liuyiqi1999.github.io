@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuyiqi1999.github.io</id>
     <title>0x5d5d5d5d</title>
-    <updated>2020-03-26T01:49:34.364Z</updated>
+    <updated>2020-03-26T12:20:46.379Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuyiqi1999.github.io"/>
     <link rel="self" href="https://liuyiqi1999.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://liuyiqi1999.github.io/images/avatar.png</logo>
     <icon>https://liuyiqi1999.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 0x5d5d5d5d</rights>
+    <entry>
+        <title type="html"><![CDATA[友链]]></title>
+        <id>https://liuyiqi1999.github.io/post/you-lian/</id>
+        <link href="https://liuyiqi1999.github.io/post/you-lian/">
+        </link>
+        <updated>2020-03-26T12:09:47.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="enoch2090.me">Enoch2090 的博客</a></p>
+<p>我的高中老友。老极客了，会写些不知道是能让你的生产力提高还是被千奇百怪的生产力工具淹没的生产力生活方式文章。还有各种奇技淫巧，有些挺有用的。还有他的翻译腔文学创作。经常换站点，如果点不进去了请联系我修改。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://liuyiqi1999.github.io/post/about/</id>
@@ -351,38 +361,6 @@
 因此我们<strong>难以</strong>更年轻 也更难以拒绝<br>
 那些虚位以待的禁止 <em><strong>卡羅林</strong></em><br>
 <em><strong>我感到我要去做一件歷史的事情</strong></em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[圣诞]]></title>
-        <id>https://liuyiqi1999.github.io/post/sheng-dan/</id>
-        <link href="https://liuyiqi1999.github.io/post/sheng-dan/">
-        </link>
-        <updated>2019-12-21T03:16:09.000Z</updated>
-        <content type="html"><![CDATA[<p>把着新年的龙头，只有手在气温中<br>
-麻木不仁，“去吃萨利亚。”可以<br>
-作为独轮车前进之力，红绿灯珠<br>
-闪烁着让路。从生活中剽窃几朵火苗，<br>
-安插于此夜平安的壁炉中。暮色正<br>
-在窗口垂钓。我们飞快地、反复地<br>
-锻造一棵松树，并为顶部设计<br>
-一枚金光闪闪的五角星。应当烘烤</p>
-<p>一只火鸡，熄灭我们五日的欢愉。<br>
-钓鱼也需要打窝，尤其是在湖面<br>
-结冰的冬季，招引一些不至于<br>
-使我们分崩离析的隐喻。他们总算<br>
-在这里相爱，而后下起了暴雨。<br>
-没什么比张灯结彩的戏台更重要，<br>
-一桌麻将冷落在残羹剩菜中，直至<br>
-很多年后的今天，大家都还记得</p>
-<p>那条泥泞的道路上，从未有过<br>
-我们熟识的面孔。纷至沓来的春天<br>
-事务繁忙，难以扯下墙壁上的旧年历。<br>
-他们驱车回家去时，油箱已空荡荡。<br>
-人们再度相见时脸上的喜悦，就足以<br>
-证明：为了时刻保持警惕。神说：<br>
-“要有光。”而人们相见时，都是捻暗的<br>
-熊熊烈火。事就这样成了。</p>
 ]]></content>
     </entry>
 </feed>
