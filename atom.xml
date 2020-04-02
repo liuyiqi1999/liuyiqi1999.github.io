@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://liuyiqi1999.github.io</id>
+    <id>https://liuyiqi1999.github.io</id>
     <title>0x5d5d5d5d</title>
-    <updated>2020-04-02T12:03:18.661Z</updated>
+    <updated>2020-04-02T12:06:19.173Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://liuyiqi1999.github.io"/>
-    <link rel="self" href="http://liuyiqi1999.github.io/atom.xml"/>
+    <link rel="alternate" href="https://liuyiqi1999.github.io"/>
+    <link rel="self" href="https://liuyiqi1999.github.io/atom.xml"/>
     <subtitle>春风里我的乌托邦在饿着</subtitle>
-    <logo>http://liuyiqi1999.github.io/images/avatar.png</logo>
-    <icon>http://liuyiqi1999.github.io/favicon.ico</icon>
+    <logo>https://liuyiqi1999.github.io/images/avatar.png</logo>
+    <icon>https://liuyiqi1999.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 0x5d5d5d5d</rights>
     <entry>
         <title type="html"><![CDATA[野指针]]></title>
-        <id>http://liuyiqi1999.github.io/post/ye-zhi-zhen/</id>
-        <link href="http://liuyiqi1999.github.io/post/ye-zhi-zhen/">
+        <id>https://liuyiqi1999.github.io/post/ye-zhi-zhen/</id>
+        <link href="https://liuyiqi1999.github.io/post/ye-zhi-zhen/">
         </link>
         <updated>2020-03-30T05:08:05.000Z</updated>
         <content type="html"><![CDATA[<p>森林的有序<br>
@@ -46,8 +46,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[友链]]></title>
-        <id>http://liuyiqi1999.github.io/post/you-lian/</id>
-        <link href="http://liuyiqi1999.github.io/post/you-lian/">
+        <id>https://liuyiqi1999.github.io/post/you-lian/</id>
+        <link href="https://liuyiqi1999.github.io/post/you-lian/">
         </link>
         <updated>2020-03-26T12:09:47.000Z</updated>
         <content type="html"><![CDATA[<p><a href="http://enoch2090.me">Enoch2090 的博客</a></p>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>http://liuyiqi1999.github.io/post/about/</id>
-        <link href="http://liuyiqi1999.github.io/post/about/">
+        <id>https://liuyiqi1999.github.io/post/about/</id>
+        <link href="https://liuyiqi1999.github.io/post/about/">
         </link>
         <updated>2020-03-25T08:10:14.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -85,7 +85,7 @@
 <li>豆瓣：<a href="https://www.douban.com/people/178356438/">刘亦奇</a></li>
 <li>Instagram：<a href="https://www.instagram.com/aofal617/">aofal617</a></li>
 <li>微信公众号：恐惧与爱的行为<br>
-<img src="http://liuyiqi1999.github.io/post-images/1585111845350.jpg" alt="恐惧与爱的行为" loading="lazy"></li>
+<img src="https://liuyiqi1999.github.io/post-images/1585111845350.jpg" alt="恐惧与爱的行为" loading="lazy"></li>
 </ul>
 <h2 id="milestone">📋 Milestone</h2>
 <p>没有调查，就没有发言权。</p>
@@ -94,8 +94,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[一位未来主义者即将失业]]></title>
-        <id>http://liuyiqi1999.github.io/post/yi-wei-wei-lai-zhu-yi-zhe-ji-jiang-shi-ye/</id>
-        <link href="http://liuyiqi1999.github.io/post/yi-wei-wei-lai-zhu-yi-zhe-ji-jiang-shi-ye/">
+        <id>https://liuyiqi1999.github.io/post/yi-wei-wei-lai-zhu-yi-zhe-ji-jiang-shi-ye/</id>
+        <link href="https://liuyiqi1999.github.io/post/yi-wei-wei-lai-zhu-yi-zhe-ji-jiang-shi-ye/">
         </link>
         <updated>2020-03-15T03:27:57.000Z</updated>
         <content type="html"><![CDATA[<p>我们是这样重逢的：<br>
@@ -129,8 +129,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[专业开锁]]></title>
-        <id>http://liuyiqi1999.github.io/post/zhuan-ye-kai-suo/</id>
-        <link href="http://liuyiqi1999.github.io/post/zhuan-ye-kai-suo/">
+        <id>https://liuyiqi1999.github.io/post/zhuan-ye-kai-suo/</id>
+        <link href="https://liuyiqi1999.github.io/post/zhuan-ye-kai-suo/">
         </link>
         <updated>2020-03-08T03:27:26.000Z</updated>
         <content type="html"><![CDATA[<p>又该写诗了。小时候，我爸送我<br>
@@ -160,8 +160,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[内部矛盾]]></title>
-        <id>http://liuyiqi1999.github.io/post/nei-bu-mao-dun/</id>
-        <link href="http://liuyiqi1999.github.io/post/nei-bu-mao-dun/">
+        <id>https://liuyiqi1999.github.io/post/nei-bu-mao-dun/</id>
+        <link href="https://liuyiqi1999.github.io/post/nei-bu-mao-dun/">
         </link>
         <updated>2020-03-01T03:27:03.000Z</updated>
         <content type="html"><![CDATA[<p>白色新大陆的黑色旧，夏的夜竟也<br>
@@ -181,8 +181,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[极限运动宝丽来]]></title>
-        <id>http://liuyiqi1999.github.io/post/ji-xian-yun-dong-bao-li-lai/</id>
-        <link href="http://liuyiqi1999.github.io/post/ji-xian-yun-dong-bao-li-lai/">
+        <id>https://liuyiqi1999.github.io/post/ji-xian-yun-dong-bao-li-lai/</id>
+        <link href="https://liuyiqi1999.github.io/post/ji-xian-yun-dong-bao-li-lai/">
         </link>
         <updated>2020-02-23T03:26:33.000Z</updated>
         <content type="html"><![CDATA[<p>你买了很多东西，说要理发。我们<br>
@@ -218,8 +218,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[作为一台扎古手册]]></title>
-        <id>http://liuyiqi1999.github.io/post/zuo-wei-yi-tai-zha-gu-shou-ce/</id>
-        <link href="http://liuyiqi1999.github.io/post/zuo-wei-yi-tai-zha-gu-shou-ce/">
+        <id>https://liuyiqi1999.github.io/post/zuo-wei-yi-tai-zha-gu-shou-ce/</id>
+        <link href="https://liuyiqi1999.github.io/post/zuo-wei-yi-tai-zha-gu-shou-ce/">
         </link>
         <updated>2020-02-05T03:22:39.000Z</updated>
         <content type="html"><![CDATA[<p><em>准确来说，是MS-07B-3特装型“老虎”。有人要说，<br>
@@ -260,8 +260,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[江南]]></title>
-        <id>http://liuyiqi1999.github.io/post/jiang-nan/</id>
-        <link href="http://liuyiqi1999.github.io/post/jiang-nan/">
+        <id>https://liuyiqi1999.github.io/post/jiang-nan/</id>
+        <link href="https://liuyiqi1999.github.io/post/jiang-nan/">
         </link>
         <updated>2020-01-31T03:21:55.000Z</updated>
         <content type="html"><![CDATA[<p>地铁电视的紫滤镜，女高音颤栗着平移<br>
@@ -288,8 +288,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[乡愁手册（组诗）]]></title>
-        <id>http://liuyiqi1999.github.io/post/xiang-chou-shou-ce-zu-shi/</id>
-        <link href="http://liuyiqi1999.github.io/post/xiang-chou-shou-ce-zu-shi/">
+        <id>https://liuyiqi1999.github.io/post/xiang-chou-shou-ce-zu-shi/</id>
+        <link href="https://liuyiqi1999.github.io/post/xiang-chou-shou-ce-zu-shi/">
         </link>
         <updated>2020-01-31T03:17:30.000Z</updated>
         <content type="html"><![CDATA[<h2 id="自驾游">自驾游</h2>
